@@ -1,0 +1,22 @@
+// ####################### fill Method ##################################
+
+
+/*
+   the fill() method fills specified elements in an array with a 
+   value. The fill() method overwrites the original array. Start 
+   and end position can be specified. If not, all elements will be 
+   filled.
+
+
+*/
+
+// -------------------------------------------------------
+
+const numbers = [1,2,3,4,5,6,7,8,9,10,11];
+
+numbers.fill(11,3,9);
+// value , start, end
+// 11 will be filled, start from 3rd index, End before 9th index
+// [1, 2, 3, 11, 11, 11, 11, 11, 11, 11, 8] // output
+
+console.log(numbers);
